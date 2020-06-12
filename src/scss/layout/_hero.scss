@@ -1,0 +1,53 @@
+.hero {
+  background-image: url("../../assets/images/cover.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .wrapper-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding:15px;
+    padding-top:215px;
+
+    h1 { 
+      text-align: center;
+      font-family: $font-family-secondary;
+      color: $color-primary;
+      font-size: 42px;
+      text-transform: uppercase;
+          
+    }  
+    
+    p {
+      display: block;
+      text-align: center;
+      font-family: $font-family-primary;
+      color: $color-primary;
+      margin:0px;
+      margin-bottom: 45px;
+      }
+      
+    .hero-arrow {
+      height: 45px;
+      width: 45px;
+      border-radius: 50%;
+      background: $color-primary;
+      text-align: center;
+      line-height:45px ;
+                 
+      img {  
+        width: 20px;
+        height: 11.7px;
+        
+        
+      }
+    }
+  }
+}

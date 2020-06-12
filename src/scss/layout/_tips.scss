@@ -1,0 +1,48 @@
+.looking-window {
+  width: 100%;
+  padding:30px 15px; 
+
+  small {
+    font-family: $font-family-primary;
+    font-size: 14px;
+    color:$color-light;
+    text-transform: capitalize; 
+  }
+
+  .looking-text {
+     
+    h2 {
+      font-family: $font-family-secondary;
+      font-size:24px;
+      text-transform: capitalize;
+      margin-top: 15px;
+    }
+
+    p {
+      font-family: $font-family-primary;
+      font-size: 18px;
+      margin-top:10px;
+      line-height: 30px;
+    }
+  }
+
+  .go-button {
+    width: 76px;
+    height: 45px;
+    padding:10px;
+    margin: 30px 0px;
+    border: $color-medium 2px solid;
+    border-radius:25px;
+    text-align: center;
+    
+    
+    
+    span{
+      font-family: $font-family-primary;
+      font-size: 20px;
+      color:$color-medium;
+      text-transform: capitalize;
+      margin:5px;
+    }
+  }
+}
