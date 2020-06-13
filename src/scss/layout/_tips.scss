@@ -56,7 +56,7 @@
     border: $color-medium 2px solid;
     border-radius:25px;
     text-align: center;
-    transition: background-color ease 0.8s, width ease 0.8s;
+    transition: box-shadow ease 0.8s, width ease 0.8s;
 
     @media all and(min-width:768px) {
       width: 91px;
@@ -66,13 +66,21 @@
       width: 160px;
     }
     span{
+      width: 100%;
       font-family: $font-family-primary;
       font-size: 20px;
       color:$color-medium;
-      transition: color ease 0.8s, font-family ease 1s;
       text-transform: capitalize;
-      margin:5px;
+      margin:auto;
       
-    }      
-  }    
+    }
+          
+  }
+
+  .go-button:hover {
+    box-shadow: grey 0px 1px 6px 1px;
+    width: 200px;
+    cursor:pointer;
+  }
+
 }
