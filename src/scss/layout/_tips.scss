@@ -78,7 +78,7 @@
   }
 
   .go-button:hover {
-    box-shadow: grey 0px 1px 6px 1px;
+    box-shadow: $color-secondary 0px 1px 6px 1px;
     width: 200px;
     cursor:pointer;
   }

@@ -13,7 +13,7 @@
       margin-bottom: 30px;
 
        @media all and(min-width:768px) {
-        grid-template-columns: 5% 90% 5%;
+        grid-template-columns: 10% 80% 10%;
        }
 
        @media all and (min-width: 1200px){
@@ -79,6 +79,8 @@
         grid-column:2/3;
         justify-self: center;
         text-align: center;
+        transition: background-color ease 0.8s, box-shadow ease 0.8s;
+        
 
         @media all and(min-width:768px) {
           width: 210px;
@@ -87,13 +89,18 @@
         @media all and(min-width:1200%) {
           width: 255px;
         }
-
-
+        
         span {
           color: $color-primary;
           font-family: $font-family-primary;
           font-size: 20px;
+          
         }
+      }
+      .button-reasons:hover {
+        background-color: $color-dark;
+        box-shadow: $color-medium 0px 1px 6px 1px;
+        cursor: pointer;
       }
     }
   }
