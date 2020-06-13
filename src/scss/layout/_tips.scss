@@ -1,6 +1,18 @@
-.tips {
+.wrapper-tips {
+  min-width: 320px;
   width: 100%;
   padding:30px 15px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  @media all and (min-width:768px) {
+    padding: 30px 39px;
+  }
+
+  @media all and (min-width:1200px) {
+    padding:30px 275px;
+  }
 
   small {
     font-family: $font-family-primary;
@@ -16,6 +28,10 @@
       font-size:24px;
       text-transform: capitalize;
       margin-top: 15px;
+
+      @media all and (min-width:768px) {
+        font-size:26px;
+      }
     }
 
     p {
@@ -23,6 +39,12 @@
       font-size: 18px;
       margin-top:10px;
       line-height: 30px;
+
+      @media all and (min-width:768px) {
+        font-size: 20px;
+        margin: 30px 0px;
+        
+      }
     }
   }
 
@@ -34,15 +56,23 @@
     border: $color-medium 2px solid;
     border-radius:25px;
     text-align: center;
+    transition: background-color ease 0.8s, width ease 0.8s;
+
+    @media all and(min-width:768px) {
+      width: 91px;
+    }
     
-    
-    
+    @media all and(min-width:1200px) {
+      width: 160px;
+    }
     span{
       font-family: $font-family-primary;
       font-size: 20px;
       color:$color-medium;
+      transition: color ease 0.8s, font-family ease 1s;
       text-transform: capitalize;
       margin:5px;
-    }
-  }
+      
+    }      
+  }    
 }
