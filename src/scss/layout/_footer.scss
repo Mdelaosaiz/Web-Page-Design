@@ -17,14 +17,14 @@
     left:50%;
     transform: translate(-50%, -50%);
   }
-  .arrow-up {
-    animation: spin;
+  .arrow-up:hover {
+    animation: up;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
 
-  @keyframes spin {
+  @keyframes up {
     from {
       transform: translateY(3px);
     }
