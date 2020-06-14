@@ -56,7 +56,12 @@
     border: $color-medium 2px solid;
     border-radius:25px;
     text-align: center;
+    -webkit-transition: box-shadow ease 0.8s, width ease 0.8s;
+    -moz-transition: box-shadow ease 0.8s, width ease 0.8s;
+    -ms-transition: box-shadow ease 0.8s, width ease 0.8s;
+    -o-transition: box-shadow ease 0.8s, width ease 0.8s;
     transition: box-shadow ease 0.8s, width ease 0.8s;
+    
 
     @media all and(min-width:768px) {
       width: 91px;
