@@ -79,8 +79,12 @@
         grid-column:2/3;
         justify-self: center;
         text-align: center;
+        -webkit-transition: background-color ease 0.8s, box-shadow ease 0.8s;
+        -moz-transition: background-color ease 0.8s, box-shadow ease 0.8s;
+        -ms-transition: background-color ease 0.8s, box-shadow ease 0.8s;
+        -o-transition: background-color ease 0.8s, box-shadow ease 0.8s;
         transition: background-color ease 0.8s, box-shadow ease 0.8s;
-        
+                
 
         @media all and(min-width:768px) {
           width: 210px;
