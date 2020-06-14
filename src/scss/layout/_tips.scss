@@ -15,7 +15,6 @@
   }
 
   small {
-    font-family: $font-family-primary;
     font-size: 14px;
     color:$color-light;
     text-transform: capitalize; 
@@ -35,7 +34,6 @@
     }
 
     p {
-      font-family: $font-family-primary;
       font-size: 18px;
       margin-top:10px;
       line-height: 30px;
@@ -71,8 +69,6 @@
       width: 160px;
     }
     span{
-      width: 100%;
-      font-family: $font-family-primary;
       font-size: 20px;
       color:$color-medium;
       text-transform: capitalize;
