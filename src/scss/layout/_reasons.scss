@@ -46,7 +46,7 @@
         }
 
         article {
-          margin: 45px 0px;
+          margin: 30px 0px;
 
           @media all and(min-width:768px) {
             margin: 45px 13px;
@@ -73,6 +73,7 @@
       .button-reasons{
         width: 184px;
         height: 45px;
+        margin-top:30px;
         padding: 10px 0px;
         background-color: $color-medium;
         border-radius: 50px;
