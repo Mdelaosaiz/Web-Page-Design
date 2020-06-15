@@ -39,6 +39,6 @@ En total, hay 3 interacciones que resolver:
 4. BONUS: hacer una pequeña animación en el botón del footer.  
 
 
-# Este es mi primer proyecto "grande". Por ello, seguro que tiene varios fallos... o alguna que otra barbaridad... XD si lo has leído o vas a ello, te pido que si hay algo que te chirría mucho, no dudes en contactar conmigo y contarme tu opinión y juntos, miramos la forma de arreglarlo, ¡ o mejorarlo!.
+### Este es mi primer proyecto "grande". Por ello, seguro que tiene varios fallos... o alguna que otra barbaridad... si lo has leído o vas a ello, te pido que si hay algo que te chirría mucho, no dudes en contactar conmigo y contarme tu opinión y juntos, miramos la forma de arreglarlo, ¡ o mejorarlo!.
 
 ## ¡Muchísimas gracias! 
